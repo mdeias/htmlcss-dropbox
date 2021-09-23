@@ -76,3 +76,37 @@ footer{
     min-height: 250px;
     background-color: black;
 }
+
+header .menù{
+    width: 100%;
+}
+
+
+
+header .menù ul{
+    display: inline-block;
+    list-style: none;
+    padding-top: 30px;
+}
+
+header .menù ul li{
+    display: inline-block;
+    font-size: 13px;
+    padding-left: 13px;
+    
+}
+
+header .menù img{
+    float: left;
+    margin-top: 25px;
+    
+}
+
+header .menù .lista-destra{
+    float: right;
+}
+
+header .menù .lista-sinistra{
+    float: left;
+
+}
