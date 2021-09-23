@@ -20,12 +20,13 @@
 
 header{
     height: 70px;
-    background-color:lightcyan;
+    background-color:white;
 }
 
 .jumbotrone{
     min-height: 500px;
-    background-color:lightpink;
+    background-color: #b3cfe6;
+    margin-bottom: 90px;
 }
 
 /* stili per le sezioni */
@@ -57,7 +58,7 @@ header{
 
 .sezione-6{
     min-height: 350px;
-    background-color: orangered;
+    background-color: #b3cfe6;
 }
 
 .sezione-7{
@@ -77,11 +78,17 @@ footer{
     background-color: black;
 }
 
+/* header */
+
 header .menù{
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
 }
 
-
+ ul li a{
+    text-decoration: none;
+    color: black;
+}
 
 header .menù ul{
     display: inline-block;
@@ -92,15 +99,16 @@ header .menù ul{
 header .menù ul li{
     display: inline-block;
     font-size: 13px;
-    padding-left: 13px;
-    
+    padding-bottom: 21px;
+    margin-left: 13px;
 }
 
 header .menù img{
     float: left;
     margin-top: 25px;
-    
 }
+
+/* float */
 
 header .menù .lista-destra{
     float: right;
@@ -108,5 +116,23 @@ header .menù .lista-destra{
 
 header .menù .lista-sinistra{
     float: left;
+}
 
+/* bottoni */
+
+.btn{
+    padding: 7px 13px;
+    background-color:royalblue;
+    border-radius: 10%;
+    color: white;
+}
+
+.bianco{
+    color: black;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+header .menù ul li:hover{
+    border-bottom: 2px solid black;
 }
