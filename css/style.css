@@ -24,9 +24,9 @@ header{
 }
 
 .jumbotrone{
-    min-height: 500px;
     background-color: #b3cfe6;
     margin-bottom: 90px;
+    padding-bottom: 40px;
 }
 
 /* stili per le sezioni */
@@ -58,12 +58,12 @@ header{
 
 .sezione-6{
     min-height: 350px;
-    background-color: #b3cfe6;
+    background-color: tan;
 }
 
 .sezione-7{
     min-height: 200px;
-    background-color: tan;
+    background-color: #b3cfe6;
 }
 
 .sezione-8{
@@ -162,3 +162,17 @@ main .contenuto-jumbo p{
     top: 230px;
 }
 
+/* sezione 7 */
+
+.sezione-7 h2{
+    display: inline-block;
+    width: 50%;
+    font-size: 30px;
+    padding-top: 60px;
+    color:maroon;
+}
+
+.eccezione{
+    float: right;
+    margin-top: 80px;
+}
