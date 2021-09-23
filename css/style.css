@@ -85,7 +85,7 @@ header .menù{
     margin: 0 auto;
 }
 
- ul li a{
+a{
     text-decoration: none;
     color: black;
 }
@@ -123,7 +123,6 @@ header .menù .lista-sinistra{
 .btn{
     padding: 7px 13px;
     background-color:royalblue;
-    border-radius: 10%;
     color: white;
 }
 
@@ -136,3 +135,30 @@ header .menù .lista-sinistra{
 header .menù ul li:hover{
     border-bottom: 2px solid black;
 }
+
+/* jumbotrone */
+
+main .contenuto-jumbo{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+    position: relative;
+}
+
+main .jumbotrone h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+main .contenuto-jumbo p{
+    width: 40%;
+    padding: 15px 0px 30px 0px;
+}
+
+.img-jumbo{
+    width: 60%;
+    position: absolute;
+    right: 0px;
+    top: 230px;
+}
+
