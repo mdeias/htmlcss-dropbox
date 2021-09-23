@@ -41,11 +41,6 @@ header{
     background-color:lightyellow;
 }
 
-.sezione-3{
-    min-height: 400px;
-    background-color:lightcoral;
-}
-
 .sezione-4{
     min-height: 400px;
     background-color: lightslategray;
@@ -160,6 +155,30 @@ main .contenuto-jumbo p{
     position: absolute;
     right: 0px;
     top: 230px;
+}
+
+/* sezione 3 */
+
+.sezione-3 .contenuto-3 img{
+    width: 50%;
+    float: left;
+    
+}
+
+.sezione-3 .contenuto-3 .testo-3{
+    width: 45%;
+    float: left;
+    margin: 40px 0px 0px 30px;
+}
+
+.sezione-3 .contenuto-3 .testo-3 h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.sezione-3 .contenuto-3 .testo-3 p{
+    padding-bottom: 30px;
+    font-size: 15px;
 }
 
 /* sezione 7 */
