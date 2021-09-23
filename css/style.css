@@ -1,0 +1,78 @@
+/* stili generali */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto 50px auto;
+
+}
+
+header{
+    height: 70px;
+    background-color:lightcyan;
+}
+
+.jumbotrone{
+    min-height: 500px;
+    background-color:lightpink;
+}
+
+/* stili per le sezioni */
+
+.sezione-1{
+    min-height: 500px;
+    background-color:lightseagreen;
+}
+
+.sezione-2{
+    min-height: 150px;
+    background-color:lightyellow;
+}
+
+.sezione-3{
+    min-height: 400px;
+    background-color:lightcoral;
+}
+
+.sezione-4{
+    min-height: 400px;
+    background-color: lightslategray;
+}
+
+.sezione-5{
+    min-height: 100px;
+    background-color: lime;
+}
+
+.sezione-6{
+    min-height: 350px;
+    background-color: orangered;
+}
+
+.sezione-7{
+    min-height: 200px;
+    background-color: tan;
+}
+
+.sezione-8{
+    min-height: 400px;
+    margin-top: 50px;
+    background-color: purple;
+}
+
+footer{
+    margin-top: 40px;
+    min-height: 250px;
+    background-color: black;
+}
