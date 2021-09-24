@@ -33,11 +33,6 @@ header{
 
 
 
-.sezione-2{
-    min-height: 150px;
-    background-color:lightyellow;
-}
-
 .sezione-4{
     min-height: 400px;
     background-color: lightslategray;
@@ -158,7 +153,6 @@ main .contenuto-jumbo p{
 
 .box{
     width: 30%;
-    min-height: 300px;
     border: 1px solid lightgrey;
     float: left;
     margin-right: 39px;
@@ -181,14 +175,14 @@ main .contenuto-jumbo p{
     margin: 20px 0px;
 }
 
-.sezione-1 .row .box .title-box{
+.title-box{
     width: 100%;
     height: 30px;
     border-bottom: 1px solid lightgrey;
 }
 
-.sezione-1 .row .box .title-box .testo-titolo{
-    display: block;
+.box .testo-titolo{
+    display: block; 
     margin: 5px auto;
     text-align: center;
 }
@@ -244,6 +238,42 @@ main .contenuto-jumbo p{
     border-top: 1px solid black;
     width: 30%;
 }
+
+/* sezione 2 */
+
+.sezione-2 .box-2{
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 100px;
+}
+
+.sezione-2 .box .content-box-2{
+    width: 97%;
+    margin: 20px auto;
+}
+
+.sezione-2 .box .content-box-2 .testo-box-2{
+    width: 76%;
+    margin: 0px;
+    display: inline-block;
+}
+
+.sezione-2 .box .content-box-2 h4{
+    padding: 10px 0px 15px 0px;
+}
+
+.sezione-2 .box .content-box-2 p{
+    font-size: 13px;
+    padding-right: 0px;
+}
+
+.sezione-2 .content-box-2 a{
+    float: right;
+    font-size: 12px;
+    margin-top: 0px;
+    padding: 7px 30px;
+}
+
 
 /* sezione 3 */
 
