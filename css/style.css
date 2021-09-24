@@ -365,3 +365,35 @@ main .contenuto-jumbo p{
 .sezione-8 .bordo{
     border-bottom: 1px solid lightgrey;
 }
+
+/* footer */
+
+footer .contenitore-footer{
+    width: 85%;
+    margin: 15px auto;
+    padding: 50px 0px;
+}
+
+footer .lista-footer{
+    float: left;
+    width: 15%;
+    margin: 16px;
+}
+
+.lista-footer h4{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.lista-footer ul{
+    list-style: none;
+}
+
+footer .contenitore-footer .lista-footer h4, li{
+    color: white;
+}
+
+.lista-footer ul li{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
