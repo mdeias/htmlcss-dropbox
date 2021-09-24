@@ -31,13 +31,6 @@ header{
 
 /* stili per le sezioni */
 
-
-
-.sezione-4{
-    min-height: 400px;
-    background-color: lightslategray;
-}
-
 .sezione-6{
     min-height: 350px;
     background-color: tan;
@@ -149,6 +142,7 @@ main .contenuto-jumbo p{
 .row{
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .box{
@@ -156,10 +150,6 @@ main .contenuto-jumbo p{
     border: 1px solid lightgrey;
     float: left;
     margin-right: 39px;
-}
-
-.sezione-1 .row .margine{
-    margin-right: 0%;
 }
 
 .sezione-1 .row .paddingb{
@@ -296,6 +286,31 @@ main .contenuto-jumbo p{
 .sezione-3 .contenuto-3 .testo-3 p{
     padding-bottom: 30px;
     font-size: 15px;
+}
+
+/* sezione 4 */
+
+.sezione-4 h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.box-4{
+    float: left;
+    width: 30%;
+    margin-right: 39px;
+}
+
+.margine{
+    margin-right: 0px;
+}
+
+.box-4 .img-box4{
+    width: 100%;
+}
+
+.sezione-4 .box-4 h3{
+    margin-bottom: 20px;
 }
 
 /* sezione 5 */
