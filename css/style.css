@@ -383,17 +383,15 @@ footer .lista-footer{
 .lista-footer h4{
     margin-bottom: 15px;
     font-size: 18px;
+    color: white;
 }
 
 .lista-footer ul{
     list-style: none;
 }
 
-footer .contenitore-footer .lista-footer h4, li{
-    color: white;
-}
-
 .lista-footer ul li{
     font-size: 14px;
     margin-bottom: 7px;
+    color: white;
 }
