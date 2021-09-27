@@ -47,10 +47,6 @@ header{
     margin-bottom: 50px;
 }
 
-.sezione-6{
-    min-height: 350px;
-}
-
 .sezione-7{
     min-height: 200px;
     background-color: #b3cfe6;
@@ -62,7 +58,7 @@ header{
 
 footer{
     margin-top: 40px;
-    min-height: 250px;
+    
     background-color: black;
 }
 
@@ -142,7 +138,7 @@ header .menu ul li:hover{
 /* cambiare colore */
 
 .btn:hover{
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: lightgray;
 }
 
 /* jumbotrone */
@@ -186,12 +182,23 @@ main .contenuto-jumbo p{
     margin-right: 39px;
 }
 
-.sezione-1 .row .paddingb{
-    padding-bottom: 174px;
-}
-
 .sezione-1 h2{
     font-size: 35px;
+}
+
+.cerchio{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    background-color:white;
+}
+
+.mensile{
+    border: 4px solid blue;
 }
 
 .sezione-1 p{
@@ -214,7 +221,7 @@ main .contenuto-jumbo p{
 .content-box{
     width: 85%;
     margin: 0 auto;
-    padding-bottom: 130px;
+    min-height: 750px;
 }
 
 .sezione-1 .box h3{
@@ -260,11 +267,12 @@ main .contenuto-jumbo p{
 .line{
     margin: 30px auto 30px 0px;
     border-top: 1px solid black;
-    width: 30%;
+    width: 60px;
 }
 
 .fa-folder, .fa-pencil-alt, .fa-smile{
-    display: inline-block;
+    float: left;
+    padding: 0px 5px 25px 0px;
 }
 
 .fa-check{
@@ -343,6 +351,7 @@ main .contenuto-jumbo p{
     float: left;
     width: 30%;
     margin-right: 39px;
+    text-align: left;
 }
 
 .margine{
@@ -350,6 +359,7 @@ main .contenuto-jumbo p{
 }
 
 .box-4 .img-box4{
+
     width: 100%;
 }
 
@@ -365,6 +375,13 @@ main .contenuto-jumbo p{
     padding-bottom: 30px;
 }
 
+.sezione-5 a{
+    display: inline-block;
+    margin: 0px;
+    color: royalblue;
+    text-decoration: underline;
+}
+
 /* sezione 6 */
 
 .sezione-6 .box-loghi{
@@ -375,35 +392,44 @@ main .contenuto-jumbo p{
 
 .sezione-6 .box-citazione{
     display: block;
-    width: 40vw;
+    width: calc(100% - 60vw);
     height: 30vw;
     background-color: lightgray;
     float: left;
+    overflow: scroll;
+}
+
+.contenuto-citazioni{
+    width: 90%;
+    margin: 0px auto;
 }
 
 .sezione-6 .box-citazione .designit{
     width: 25%;
-    margin: 30px;
+    margin-top: 1vw;
 }
 
-.sezione-6 .box-citazione p{
-    margin: 30px;
+.sezione-6 .box-citazione .contenuto-citazioni p{
+    margin: 3vw 0vw;
 }
 
 .container-loghi{
     float: left;
     width: 15vw;
     height: 15vw;
+    text-align: center;
+    padding-top: 4vw;
+    
 }
 
 .sezione-6 .box-loghi .sponsor{
     width: 10vw;
-    float: left;
     filter: invert(1);  
 }
 
 .sezione-6 .box-loghi .des{
   background-color:mediumaquamarine;
+  padding-top: 6vw;
 }
 
 .sezione-6 .box-loghi .arizona{
@@ -417,18 +443,22 @@ main .contenuto-jumbo p{
 
 .sezione-6 .box-loghi .topps{
     background-color:orangered;
+    padding-top: 5vw;
 }
 
 .sezione-6 .box-loghi .bicycle{
-   background-color:red; 
+   background-color:red;
+   padding-top: 6vw;
 }
 
 .sezione-6 .box-loghi .hearst{
     background-color:lightsteelblue;
+    padding-top: 7vw;
 }
 
 .sezione-6 .box-loghi .planet{
     background-color:mediumblue;
+    padding-top: 5vw;
 }
 
 .sezione-6 .box-loghi .clear{
@@ -503,4 +533,22 @@ footer .lista-footer{
     font-size: 14px;
     margin-bottom: 7px;
     color: white;
+}
+
+footer .contenitore-linea-logo{
+    width: 85%;
+    margin: 15px auto;
+}
+
+footer .linea-footer{
+    display: block;
+    width: 10vw;
+    border: 1px solid white;
+    margin-bottom: 3vw;
+}
+
+footer .logo-footer{
+    filter: invert(1);
+    width: 6vw;
+    padding-bottom: 3vw;
 }
