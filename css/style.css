@@ -6,7 +6,7 @@
     padding: 0px;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -20,7 +20,7 @@
 
 header{
     height: 70px;
-    background-color:white;
+    position: relative;
 }
 
 .jumbotrone{
@@ -68,9 +68,17 @@ footer{
 
 /* header */
 
-header .menù{
-    width: 95%;
+header .menu{
+    width: 100%;
+    background-color: #fff;
     margin: 0 auto;
+    position: fixed;
+    z-index: 400;
+}
+
+header .menu .margini-menu{
+    width: 95%;
+    margin: auto;
 }
 
 a{
@@ -78,31 +86,31 @@ a{
     color: black;
 }
 
-header .menù ul{
+header .menu ul{
     display: inline-block;
     list-style: none;
     padding-top: 30px;
 }
 
-header .menù ul li{
+header .menu ul li{
     display: inline-block;
     font-size: 13px;
     padding-bottom: 21px;
     margin-left: 13px;
 }
 
-header .menù img{
+header .menu img{
     float: left;
     margin-top: 25px;
 }
 
 /* float */
 
-header .menù .lista-destra{
+header .menu .lista-destra{
     float: right;
 }
 
-header .menù .lista-sinistra{
+header .menu .lista-sinistra{
     float: left;
 }
 
@@ -120,8 +128,21 @@ header .menù .lista-sinistra{
     border: 1px solid lightgray;
 }
 
-header .menù ul li:hover{
+header .menu ul li:hover{
     border-bottom: 2px solid black;
+}
+
+/* no bordo  */
+
+.nobordo{
+    font-size: 12px;
+    margin-left: 13px;
+}
+
+/* cambiare colore */
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* jumbotrone */
@@ -243,8 +264,7 @@ main .contenuto-jumbo p{
 }
 
 .fa-folder, .fa-pencil-alt, .fa-smile{
-    float: left;
-    padding: 0px 6px 30px 0px;
+    display: inline-block;
 }
 
 .fa-check{
@@ -348,17 +368,16 @@ main .contenuto-jumbo p{
 /* sezione 6 */
 
 .sezione-6 .box-loghi{
-    display: inline-block;
-    width: 28%;
-    height: 350px; 
+    display: block;
+    width: 30vw;
     float: left;
 }
 
 .sezione-6 .box-citazione{
-    display: inline-block;
-    width: 44%;
+    display: block;
+    width: 40vw;
+    height: 30vw;
     background-color: lightgray;
-    padding-bottom: 61px;
     float: left;
 }
 
@@ -371,13 +390,20 @@ main .contenuto-jumbo p{
     margin: 30px;
 }
 
+.container-loghi{
+    float: left;
+    width: 15vw;
+    height: 15vw;
+}
+
 .sezione-6 .box-loghi .sponsor{
-    width: 50%;
-    height: 50%;
-    float: left; 
-    /* filter: invert(1);  */
-    padding: 10%;
-    background-color:darkseagreen;
+    width: 10vw;
+    float: left;
+    filter: invert(1);  
+}
+
+.sezione-6 .box-loghi .des{
+  background-color:mediumaquamarine;
 }
 
 .sezione-6 .box-loghi .arizona{
