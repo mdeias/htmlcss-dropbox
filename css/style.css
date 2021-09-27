@@ -212,7 +212,7 @@ main .contenuto-jumbo p{
 
 .sezione-1 .box .content-box li{
     font-size: 14px;
-    margin: 10px auto;
+    margin: 13px auto;
     list-style: none;
 }
 
@@ -236,10 +236,21 @@ main .contenuto-jumbo p{
     text-decoration: underline;
 }
 
-.sezione-1 .box .content-box .line{
+.line{
     margin: 30px auto 30px 0px;
     border-top: 1px solid black;
     width: 30%;
+}
+
+.fa-folder, .fa-pencil-alt, .fa-smile{
+    float: left;
+    padding: 0px 6px 30px 0px;
+}
+
+.fa-check{
+    float: left;
+    padding: 0px 6px 10px 0px;
+    color: deepskyblue;
 }
 
 /* sezione 2 */
@@ -339,7 +350,7 @@ main .contenuto-jumbo p{
 .sezione-6 .box-loghi{
     display: inline-block;
     width: 28%;
-    height: 350px;
+    height: 350px; 
     float: left;
 }
 
@@ -347,7 +358,7 @@ main .contenuto-jumbo p{
     display: inline-block;
     width: 44%;
     background-color: lightgray;
-    height: 350px;
+    padding-bottom: 61px;
     float: left;
 }
 
@@ -369,13 +380,13 @@ main .contenuto-jumbo p{
     background-color:darkseagreen;
 }
 
-
 .sezione-6 .box-loghi .arizona{
     background-color:maroon;
 }
 
 .sezione-6 .box-loghi .florida{
     background-color:deepskyblue;
+    padding: 21% 10%;
 }
 
 .sezione-6 .box-loghi .topps{
@@ -432,6 +443,10 @@ main .contenuto-jumbo p{
 
 .sezione-8 .bordo{
     border-bottom: 1px solid lightgrey;
+}
+
+.fa-chevron-down{
+    padding-left: 250px;
 }
 
 /* footer */
