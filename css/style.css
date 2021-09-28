@@ -15,12 +15,6 @@
 .container{
     width: 60%;
     margin: 0 auto 0px auto;
-
-}
-
-header{
-    height: 70px;
-    position: relative;
 }
 
 .jumbotrone{
@@ -30,6 +24,10 @@ header{
 }
 
 /* stili per le sezioni */
+
+header{
+    height: 70px;
+}
 
 .sezione-1{
     margin-top: 200px;
@@ -70,6 +68,7 @@ header .menu{
     margin: 0 auto;
     position: fixed;
     z-index: 400;
+    height: 70px;
 }
 
 header .menu .margini-menu{
@@ -418,8 +417,11 @@ main .contenuto-jumbo p{
     width: 15vw;
     height: 15vw;
     text-align: center;
-    padding-top: 4vw;
-    
+    padding-top: 4vw;   
+}
+
+.container-loghi:active{
+    border: 20px solid whitesmoke;
 }
 
 .sezione-6 .box-loghi .sponsor{
@@ -438,7 +440,7 @@ main .contenuto-jumbo p{
 
 .sezione-6 .box-loghi .florida{
     background-color:deepskyblue;
-    padding: 21% 10%;
+    padding-top: 6vw;
 }
 
 .sezione-6 .box-loghi .topps{
@@ -480,6 +482,17 @@ main .contenuto-jumbo p{
     float: right;
     margin-top: 80px;
 }
+
+/* tentativo bonus  */
+
+.sezione-8 .bonus{
+    padding: 20px 0px;
+    background-color: white;
+    line-height: 25px;
+    color: darkgrey;
+    display: none;
+}
+
 
 /* sezione 8 */
 
